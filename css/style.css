@@ -171,6 +171,9 @@ header{
     background-color: #008AFF;
 }
 .ft1{}
+.ft1>p{
+	color:#85D0FF;
+}
 .ft1>p>span{
 	color:#FFFFFF;
 }
