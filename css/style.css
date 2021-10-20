@@ -1,0 +1,177 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif ;
+}
+/*common css end*/
+/*header start*/
+header{
+	border: 1px solid black;
+}
+.wrappar{
+	margin:0 auto;
+	width:90%;
+	overflow: hidden;
+}
+.logo{
+  	width: 10%;
+  	float: left;
+}
+.logo > img{
+	width: 100%;
+}
+.menu{
+	margin-top: 3px;
+	width: 40%;
+	float: right;
+}
+.menu > ul{float: right;}
+.menu > ul > li{
+	list-style: none;
+	float: left;
+} 
+.menu > ul > li > a{
+	text-decoration: none;
+	padding: 6px 25px;
+	display: inline-block;
+}
+	.menu > ul > li > a:hover{
+		color:#008AFF;
+}
+.menu > ul > li:last-child > a{
+	padding-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	padding:60px 0;
+}
+.wrappar2{
+	margin:0 auto;
+	width: 55% ;
+
+}
+.b_content{
+	text-align: center;
+}
+.b_head{
+    margin:0;
+    text-align: center; 
+    font-size: 52px;
+   /* border: 1px solid red;*/
+    line-height: 137%;
+    color:#0F2656;
+}
+.span{
+	color:#008AFF;
+}
+.b_p{
+	margin:15px 0;
+    font-size: 16px;
+    line-height: 150%;
+    color: #008AF;
+    /*border: 1px solid red;*/
+}
+.b_img{
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+    width: 70%;
+
+}
+.b_img > img {
+	width: 100%;
+}
+.b_img > img:hover{
+	transition:.3s;
+	transform:scale(.8);
+}
+/*banner end*/
+/*section 2 start*/
+.sec2{
+	/*border:1px solid red;*/
+}
+.s_contant{
+	overflow: hidden;
+    /*border:1px solid black;*/
+}
+.s_left{
+	float: left;
+	width: 48.5% ;
+	text-align: right;
+}
+.s_left > h2{
+	margin: 0;
+	color:#F15666;
+	font-size: 55px;
+
+}
+.s_left > p{
+    margin: 0 0 32px 221px;
+    color: #0F2656;
+    line-height: 27px;
+}
+.s_right{
+    width: 48.5%;
+    float: right;
+}
+.s_right > h1{
+	margin: 0;
+    color: #0F2656;
+    font-size: 50px;
+    padding: 0 113px 2px 0px;
+}
+/*section 2 end*/
+/*service start*/
+.service{
+    margin: 60px 0;
+}
+.s_wrappar{
+	overflow: hidden;
+}
+.single{
+    margin-right: 2.9%;
+    width: 28%;
+    padding: 25px 1.7% 40px;
+    float: left;
+}
+.single:last-child{
+	margin-right:0;
+}
+.pink{
+	background-color: #FEEBED;
+}
+.green{
+	background-color: #EBF9F4;	
+}
+.yellow{
+	background-color: #FFF7E8;
+}
+}
+.single_2{
+	border: 1px solid black;
+}
+.single_2>img{
+	width:100%;
+}
+.single_2>h2{
+	margin: 6px 0 11px;
+    font-size: 19px;
+}
+.single_2>p{
+	margin: 0;
+	line-height:25px;
+}
+/*service end*/
+/*footer start*/
+.ft{
+	padding: 15px 0;
+    text-align: center;
+    background-color: #008AFF;
+}
+.ft1{}
+.ft1>p>span{
+	color:#FFFFFF;
+}
+/*footer end*/
